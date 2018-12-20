@@ -76,9 +76,9 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
     toolbar: {
         items: [
-            'code','heading',
+            'heading',
             '|', 'fontSize', 'fontFamily', 'alignment',
-            '|','bold','italic','underline', 'strikethrough','subscript', 'superscript',
+            '|','bold','italic','underline', 'strikethrough','subscript', 'superscript','code',
 			'|', 'bulletedList', 'numberedList','highlight',
             '|','link','ckfinder', 'imageUpload', 'blockQuote', 'insertTable', 'mediaEmbed',
             '|', 'undo', 'redo'
