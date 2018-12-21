@@ -85,13 +85,14 @@ ClassicEditor.defaultConfig = {
         ]
     },
     image: {
-        toolbar: [
-            'imageStyle:alignLeft',
-            'imageStyle:alignRight',
-            'imageStyle:full',
-            'imageStyle:side',
-            '|',
-            'imageTextAlternative'
+        // You need to configure the image toolbar, too, so it uses the new style buttons.
+        toolbar: [ 'imageTextAlternative','|','imageStyle:full','imageStyle:alignLeft','imageStyle:alignCenter','imageStyle:alignRight' ],
+
+        styles: [
+            'full',
+            'alignLeft',
+            'alignRight',
+            'alignCenter'
         ]
     },
     table: {

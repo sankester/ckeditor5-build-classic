@@ -1,6 +1,6 @@
 {
   "name": "@sankester/ckeditor5-build-classic-improve-plugin",
-  "version": "11.2.0.1",
+  "version": "11.2.2",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
